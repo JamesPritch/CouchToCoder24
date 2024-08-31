@@ -2,11 +2,14 @@ body {
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
+    font-size: 1.5vw;
 }
 
-h1 {
+#logo {
     margin: 0px;
     padding: 8px;
+    font-family: "Baskervville SC", sans-serif;
+    text-shadow: 2px 2px 4px gray;
 }
 
 ul {
@@ -15,8 +18,36 @@ ul {
 
 body > header {
     background-color: lightblue;
+    color: white;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+}
+
+body > main > article {
+    width: 70%;
+    margin: auto;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
 }
 
 body > footer {
     background-color: lightblue;
+}
+
+img {
+    border-radius: 50%;
 }
