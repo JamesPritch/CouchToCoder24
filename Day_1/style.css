@@ -19,21 +19,43 @@ ul {
 body > header {
     background-color: lightblue;
     color: white;
+    display: flex;
+    align-items: center;
+    height: 12vh;
+    justify-content: space-around;
 }
 
-body > header > nav > ul {
+#nav-ul {
     list-style: none;
     text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+#nav-ul > li {
+    padding: 8px;
+    margin: 16px;
 }
 
 .navbutton {
     color: white;
     text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
 }
 
-body > main > article {
-    width: 70%;
+body > main article {
+    width: 80%;
     margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: center;
+}
+
+#main-content > div {
+    width: 70%;
 }
 
 form {
@@ -46,8 +68,26 @@ h2 {
 
 body > footer {
     background-color: lightblue;
+    display: flex;
+}
+
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+    
 }
 
 img {
     border-radius: 50%;
 }
+
+#footer-ul > div > li {
+    margin-left: 12px;
+}
+
+#footer-ul > div > li > a {
+    text-decoration: none;
+    color: white;
+}
+
